@@ -1,0 +1,94 @@
+Starting mysql-standalone ... 
+[1A[2KStarting mysql-standalone ... [32mdone[0m[1BStarting springboot-docker-container ... 
+[1A[2KStarting springboot-docker-container ... [32mdone[0m[1BAttaching to mysql-standalone, springboot-docker-container
+[36mmysql-standalone               |[0m 2020-12-04 01:23:14+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mmysql-standalone               |[0m 2020-12-04 01:23:14+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mmysql-standalone               |[0m 2020-12-04 01:23:14+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mmysql-standalone               |[0m 2020-12-04T01:23:15.565449Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.22) starting as process 1
+[36mmysql-standalone               |[0m 2020-12-04T01:23:15.597845Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[36mmysql-standalone               |[0m 2020-12-04T01:23:16.355641Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[36mmysql-standalone               |[0m 2020-12-04T01:23:16.730440Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+[36mmysql-standalone               |[0m 2020-12-04T01:23:16.904691Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[36mmysql-standalone               |[0m 2020-12-04T01:23:16.905276Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[36mmysql-standalone               |[0m 2020-12-04T01:23:16.913606Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mmysql-standalone               |[0m 2020-12-04T01:23:16.978080Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.22'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+[33mspringboot-docker-container    |[0m 
+[33mspringboot-docker-container    |[0m   .   ____          _            __ _ _
+[33mspringboot-docker-container    |[0m  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[33mspringboot-docker-container    |[0m ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[33mspringboot-docker-container    |[0m  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[33mspringboot-docker-container    |[0m   '  |____| .__|_| |_|_| |_\__, | / / / /
+[33mspringboot-docker-container    |[0m  =========|_|==============|___/=/_/_/_/
+[33mspringboot-docker-container    |[0m  :: Spring Boot ::        (v2.3.3.RELEASE)
+[33mspringboot-docker-container    |[0m 
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:20.224  INFO 1 --- [           main] e.a.s.SpringbootAngularDockerApplication : Starting SpringbootAngularDockerApplication v0.0.1-SNAPSHOT on e12d4a67b17d with PID 1 (/app.jar started by root in /)
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:20.246  INFO 1 --- [           main] e.a.s.SpringbootAngularDockerApplication : No active profile set, falling back to default profiles: default
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:23.574  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:23.750  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150ms. Found 1 JPA repository interfaces.
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:25.974  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9595 (http)
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:26.044  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:26.045  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:26.320  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:26.326  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5786 ms
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:28.493  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:28.835  INFO 1 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:29.418  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:29.761  INFO 1 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:31.279  INFO 1 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:32.150  INFO 1 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:32.741  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9595 (http) with context path ''
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:32.757  INFO 1 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:33.599  INFO 1 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:33.669  INFO 1 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[36mmysql-standalone               |[0m mbind: Operation not permitted
+[33mspringboot-docker-container    |[0m Hibernate: drop table if exists environnement
+[33mspringboot-docker-container    |[0m Hibernate: create table environnement (pk integer not null auto_increment, env varchar(255), message varchar(255), nom varchar(255), sujet varchar(255), primary key (pk)) engine=MyISAM
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:36.682  INFO 1 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:36.717  INFO 1 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:37.829  INFO 1 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:37.876  INFO 1 --- [           main] e.a.s.SpringbootAngularDockerApplication : Started SpringbootAngularDockerApplication in 19.635 seconds (JVM running for 22.215)
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:42.495  INFO 1 --- [nio-9595-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:42.496  INFO 1 --- [nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+[33mspringboot-docker-container    |[0m 2020-12-04 01:23:42.540  INFO 1 --- [nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+[33mspringboot-docker-container    |[0m Hibernate: insert into environnement (env, message, nom, sujet) values (?, ?, ?, ?)
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: insert into environnement (env, message, nom, sujet) values (?, ?, ?, ?)
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: insert into environnement (env, message, nom, sujet) values (?, ?, ?, ?)
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_ where upper(environnem0_.env)=upper(?)
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: delete from environnement where pk=?
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_ where upper(environnem0_.env)=upper(?)
+[33mspringboot-docker-container    |[0m Hibernate: delete from environnement where pk=?
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_ where upper(environnem0_.env)=upper(?)
+[33mspringboot-docker-container    |[0m Hibernate: delete from environnement where pk=?
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: insert into environnement (env, message, nom, sujet) values (?, ?, ?, ?)
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: insert into environnement (env, message, nom, sujet) values (?, ?, ?, ?)
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_ where upper(environnem0_.env)=upper(?)
+[33mspringboot-docker-container    |[0m Hibernate: delete from environnement where pk=?
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_ where upper(environnem0_.env)=upper(?)
+[33mspringboot-docker-container    |[0m Hibernate: delete from environnement where pk=?
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[33mspringboot-docker-container    |[0m Hibernate: select environnem0_.pk as pk1_0_, environnem0_.env as env2_0_, environnem0_.message as message3_0_, environnem0_.nom as nom4_0_, environnem0_.sujet as sujet5_0_ from environnement environnem0_
+[36mUnexpected API error for mysql-standalone (HTTP code 502)
+Response body:
+Bad response from Docker engine
+
+[0m[33mUnexpected API error for springboot-docker-container (HTTP code 502)
+Response body:
+Bad response from Docker engine
+
+[0m
